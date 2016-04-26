@@ -352,11 +352,11 @@ z-index:10;
 .ba-section-menu{
 	padding: 100px 0;
 	background: url(../img/menu_bg.jpg)no-repeat 50%;
-	background-size: auto, cover;
+	background-size: cover;
 }
 
 .ba-section-menu h2 {
-	background: url(../img/Divider2.png)no-repeat 50% 100%;
+	background: url(../img/Divider.png)no-repeat 50% 100%;
 	text-align: center;
 	padding-bottom: 23px;
 }
@@ -408,3 +408,100 @@ z-index:10;
 		color: #FFF;
 		text-align:center;
 }
+
+/*ba-section-reviews*/
+
+.ba-section-reviews {
+	background: url(../img/reviews_bg.jpg) no-repeat 50%;
+	-webkit-background-size: cover;
+			     -o-background-size: cover;
+			        background-size: cover;
+	    padding: 100px 0;
+	    color: #DEE0E0;
+}
+
+.ba-section-reviews h2 {
+	color: #FFF;
+	background: url(../img/decor2.png)no-repeat 50% 100%;
+	padding-bottom: 40px;
+}
+
+.ba-section-reviews p {
+	font-family: 'Gentium Book Basic', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.8;
+}
+
+.ba-section-reviews__info {
+	padding: 80px 70px 106px;
+	width: 770px;
+	margin: 0 auto;
+	background: url(../img/Text_bg.png)no-repeat 50%;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+/*ba-section-reservations*/
+
+.ba-section-reservations {
+	background: url(../img/ba-about.png)no-repeat 50%;
+-webkit-background-size: cover;
+     -o-background-size: cover;
+        background-size: cover;
+	    padding: 100px 0;
+}
+
+.ba-reservations__info {
+	max-width: 430px;
+	margin: 0 auto;
+}
+
+.ba-reservations__info h2{
+	background: url(../img/Divider.png)no-repeat 50% 100%;
+	padding-bottom: 40px;
+}
+
+.ba-reservations__form legend{
+	font-family: 'Open Sans',sans-serif;
+	color: #c9a131;
+	font-size: 14px;
+	font-weight: 700;
+	margin-left: 20px;
+}
+
+.ba-contact-form__field {
+	display: block;
+	border:1px solid transparent;
+}
+.ba-contact-form__field:hover {
+	border:1px solid #cc9900;
+	transition:transform .4s;
+}
+
+
+.ba-contact-form__field input {
+	display: block;
+    padding: 5px 15px;
+    width: 100%;
+    color: #cc9900;
+   }
+
+.ba-reservations__form {
+	max-width: 430px;
+    margin-top: 28px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.ba-button--form{
+    background: #c89f2d;
+    margin-top: 18px;
+    color: #FFF;
+	padding: 12px 60px;
+}
+
+.ba-button--form:hover {
+	background-color: rgba(0, 0, 0, 0.7);
+	opacity: 0.8;
+	}
