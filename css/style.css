@@ -25,6 +25,10 @@ h2 {
 	font-weight: 400;
 }
 
+h4 {
+	margin: 0;
+}
+
 /* Typography */
 a,
 input[type="submit"],
@@ -87,13 +91,13 @@ textarea {
 
 /* Layout */
 .ba-container{
-	padding-left: 20px;
-	padding-right: 20px;
-	max-width: 1210px;
+	padding-left: 40px;
+	padding-right: 40px;
+	max-width: 1250px;
 }
 
 .ba-home {
-	background: url("../img/homeBg.png")50% no-repeat;
+	background: url("../img/homeBg.jpg")50% no-repeat;
 	background-size: cover;
 	padding-bottom: 142px;
 }
@@ -103,7 +107,7 @@ textarea {
 background: url("../img/bg.png")0% 0% no-repeat;
 position: fixed;
 width: 100%;
-
+z-index:10;
 }
 
 .ba-logo {
@@ -139,6 +143,7 @@ width: 100%;
 
 .ba-social {
     margin-top: 50px;
+    margin-left: 30px;
 }
 
 .fa {
@@ -150,7 +155,6 @@ width: 100%;
 
 /*HOME*/
 .ba-home__title {
-	max-width: 1000px;
 	padding-top: 210px;
 	margin: 0 auto;
 	line-height: 1.35;
@@ -170,9 +174,14 @@ width: 100%;
 	font-weight: 400;
 }
 
-.ba-button__home:hover {
+.ba-button__black{
 	border: 1px solid #000000;
-	background-color:  rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.7);
+	opacity: 0.8;
+}
+
+.ba-button__home:hover {
+	background-color:#cc9900;
 	opacity: 0.8;
 }
 
@@ -199,8 +208,8 @@ width: 100%;
 }
 
 .ba-about__info h2 {
-	background: url(../img/Divider.png) no-repeat 50%;
-	padding-bottom: 80px;
+	background: url(../img/Divider.png) no-repeat 50% 100%;
+	padding-bottom: 40px;
 }
 
 .ba-about__dish img:hover {
@@ -216,7 +225,7 @@ width: 100%;
 /*ingredients*/
 
 .ba-ingredients {
-	background: url(../img/ingredients_bg.png) no-repeat 50%;
+	background: url(../img/ingredients_bg.jpg) no-repeat 50%;
 	-webkit-background-size: cover;
 		     -o-background-size: cover;
 		        background-size: cover;
@@ -262,6 +271,10 @@ width: 100%;
 
 @media  (min-width: 320px) and (max-width: 767px)
 {
+	.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	}
 	.ba-home {
 		padding-bottom: 25px;
 	}
@@ -332,4 +345,66 @@ width: 100%;
     .ba-ingredients__info--pad {
     	padding: 0;
     }
+}
+
+/*Section-Menu*/
+
+.ba-section-menu{
+	padding: 100px 0;
+	background: url(../img/menu_bg.jpg)no-repeat 50%;
+	background-size: auto, cover;
+}
+
+.ba-section-menu h2 {
+	background: url(../img/Divider2.png)no-repeat 50% 100%;
+	text-align: center;
+	padding-bottom: 23px;
+}
+
+.ba-section-menu__col {
+	max-width: 460px;
+	margin-left: 54px;
+}
+
+.ba-section-menu__titles h4{
+	font-family: 'Yeseva One',sans-serif;
+	color:  #c89f2d;
+	font-size: 21px;
+	line-height: 1.14;
+	font-weight: 400;
+	border-bottom:1px solid #c89f2d;
+}
+
+.ba-section-menu__col span {
+	float:right;
+}
+
+.ba-section-menu__items {
+	list-style: none;
+}
+
+.ba-section-menu__items >li {
+	margin-top: 15px;
+    padding: 6px 14px 5px;
+}
+
+.ba-section-menu__items p {
+	margin: 10px 0;
+}
+
+.ba-section-menu__special {
+	border:1px solid #c89f2d;
+	position: relative;
+}
+
+.ba-section-menu__special:after {
+		content:'Special';
+		height: 23px;
+		background-color:#c89f2d;
+		width: 70px;
+		position: absolute;
+		right: 0;
+		top: -23px;
+		color: #FFF;
+		text-align:center;
 }
