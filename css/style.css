@@ -504,4 +504,42 @@ z-index:10;
 .ba-button--form:hover {
 	background-color: rgba(0, 0, 0, 0.7);
 	opacity: 0.8;
-	}
+}
+
+.ba-contact-form__field select {
+	display: block;
+    padding: 8px 15px;
+    width: 100%;
+    color: #cc9900;
+  }
+
+/*Footer*/
+
+.ba-footer {
+	padding: 50px 0;
+	background-color: #191919;
+	color:#FFF;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 400;
+}
+
+.ba-footer span {
+	font-weight: 700;
+}
+
+.ba-footer h4 {
+	background: url(../img/decor2.png)no-repeat 50% 100%;
+	padding-bottom: 35px;
+}
+
+.ba-footer__cards{
+	padding-top: 30px;
+}
+
+.ba-footer__social{
+	padding-top: 30px;
+}
+
+.fa {
+	margin-left: 11px;
+}
