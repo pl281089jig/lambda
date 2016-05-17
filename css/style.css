@@ -609,8 +609,6 @@ z-index:10;
 
 	.ba-menu-open {
 		transform:translateX(-170px);
-		overflow:hidden;
-		position: fixed;
 	}
 
 	.ba-menu-open .ba-overlay {
